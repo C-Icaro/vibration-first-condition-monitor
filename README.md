@@ -29,6 +29,8 @@ npm run dev
 
 Open `http://localhost:3000`.
 
+If a live upstream is configured, provide its credential only through the server runtime environment. Never use a `NEXT_PUBLIC_` variable for upstream secrets.
+
 ## Validation
 
 ```bash
